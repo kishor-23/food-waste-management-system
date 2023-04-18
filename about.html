@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" class="active" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+        
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+        .para p{
+            font-size: 23px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+          @media (max-width: 767px) {
+            .para p{
+               font-size: 16px;
+               /* margin-left: 10px; */
+              }
+            #pptslide{
+                height: 200px;
+                width: 300px;
+
+            }
+            #map{
+              height: 200px;
+                width: 300px;
+
+
+            }
+            #overview{
+              height: 200px;
+                width: 300px;
+            }
+            
+        .title{
+          font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+
+          }
+     
+    </style>
+    <br>
+    <br>
+    <!-- <section class="coverc">
+        
+    
+    </section> -->
+    <p class="title">"Welcome to <u> Food Donate</u> "</p>
+    <br>
+    <br>
+    <br>
+        <p class="heading">About us</p>
+        <!-- <p  style=" font-size:30px ; text-align: center;" > ABOUT <span>US</span> </p> -->
+      
+        <!-- <br> -->
+      <div class="para">
+        <!-- <p>"Welcome to Food Donate, India's largest and most trusted donating platform that connects donors to verified nonprofits. FoodDonate helps you become a ray of hope for people in need. Choose a cause that is close to your heart and join hands with millions of donors like you who aim to make this world a better place."</p> -->
+      
+        <p>We are a team of passionate individuals committed to addressing the issue of food waste in India. Our goal is to create a system that connects food donors with charities and NGOs, while also reducing the environmental impact of food waste.</p>
+      </div>
+      <br>
+ 
+      
+    
+      <br>
+      
+
+
+<div class="map"  style="  text-align: center; padding-bottom: 50px;" >
+<p  style=" font-size:30px ;" > Location  </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2518547826976!2d78.14534951744383!3d9.912970000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c5077610d357%3A0x69066b558478379a!2sThiagarajar%20College!5e0!3m2!1sen!2sin!4v1677633156837!5m2!1sen!2sin" width="777" height="473" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+     </div>
+
+
+     <!-- <p class="heading"> Our Story</p>
+     <div class="para">
+       <p>Our journey began with a realization that food waste is a significant problem in India. According to a report by the United Nations, India is the world's second-largest food producer, yet it also has one of the highest rates of food waste. This waste has a significant impact on the environment, as well as on food security in the country.</p>
+     </div> -->
+     <!-- <div class="overview"  style="  text-align: center; padding-bottom: 50px;" >
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1400 height=800 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/3094230/share/2023-3-2/1677763924/main.svg" id="overview"></iframe>
+     </div> -->
+</body>
+</html>

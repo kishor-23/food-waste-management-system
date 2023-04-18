@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+body{
+    background-image: url("");
+
+    /* font-family: 'Open Sans', sans-serif; */
+    background-color: #06C167;
+     /* outline: none; */
+  font-family: 'Poppins', sans-serif;
+
+
+    
+
+}
+.logo{
+    text-align: center;
+    font-size: 22px;
+    color:black;
+  }
+
+
+.regform{ 
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  border: 1px solid  rgba(0,0,0,0.05);
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  */
+
+    width:430px;
+    background-color:white;
+    padding: 20px 20px 20px 20px;
+
+
+    margin: 20px auto ;
+    color:black;
+  
+    font-size: 20px;
+    border-radius: 10px ;
+    /* border: 1px solid black; */
+    
+}
+.regformf{
+  width:480px;
+    background-color:white;
+
+    margin: 20px auto ;
+    color:black;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 10px ;
+    /* border: 1px solid black; */
+
+}
+
+
+ #heading{
+    margin-top:0;
+    color:black;
+    text-align: center;
+    font-size: 28px;
+    
+}
+form{
+    /* width:400px; */
+}
+.input input{
+    width:100%;
+    font-size:20px;
+    border:.5px solid #63707E;
+    
+    border-radius: 6px;
+    padding:14px 15px;
+    box-sizing:border-box;
+    margin:5px 0px 15px;
+    color:black;
+}
+
+input:focus{
+    background-color:white;
+}
+
+button{
+    background-color:black;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: .5px solid black;
+    width: 100%;
+    
+}
+.radio .value{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    
+
+}
+
+.radio input{
+    transform: scale(1.5);
+
+}
+button:hover{
+    /* background-color:white; */
+    color: #eeeeee;
+    transform: scale(.98);
+
+  
+}
+.regform .signin-up{
+    font-size: 20px; 
+    text-align: center;
+}
+.password{
+  position: relative;
+}
+.password input{
+  width:100%;
+  font-size:20px;
+  border:.5px solid #63707E;
+  
+  border-radius: 6px;
+  padding:14px 15px;
+  box-sizing:border-box;
+  margin:5px 0px 15px;
+  color:black;
+  
+}
+.fa-eye-slash{
+  position:absolute;
+  top:28%;
+  right: 4%;
+  /* font-size: 48px; */
+  cursor: pointer;
+
+}
+.bi{
+  position:absolute;
+  top:28%;
+  right: 4%;
+  /* font-size: 48px; */
+  cursor: pointer;
+
+}
+.uil{
+  
+  top:50%;
+ bottom: 4%;
+  right: 4%;
+  /* font-size: 48px; */
+  cursor: pointer; 
+  position: absolute;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  color: #595757;
+  font-size: 23px;
+  transition: all 0.2s ease;
+}
+
+.image-radio-group input[type="radio"] {
+    display: none;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+  }
+  .image-radio-group label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .image-radio-group label img {
+    border: 2px solid transparent;
+  }
+  .image-radio-group input[type="radio"]:checked + label img {
+    border-color:rgb(46, 44, 44);
+    border-radius: 10px;
+    /* background-color:rgb(29, 109, 248); */
+  }
+  
+  .image-radio-group img{
+    width: 215px;
+    /* height: 120px; */
+    align-items:center;
+    
+
+    
+  }
+/*  */
+  /* .input #email{
+    display: block;
+    width: 200px;
+  }
+  .input #phoneno{
+    width: 200px;
+    display: block;
+  } */
+
+
+
+@media (max-width: 767px) {
+
+
+    .regform{ 
+      /* position: absolute;
+      top: 50%;
+      left: 50%; */
+    
+        width: 300px;
+        background-color:white;
+
+    
+        margin: 40px auto ;
+        color:black;
+        padding: 20px 20px 20px 20px;
+        font-size: 15px;
+        /* border-radius: 30px ; */
+        /* border: 1px solid black; */
+        
+    }
+    .regformf{
+      width: 300px;
+        background-color:white;
+
+    
+        margin: 40px auto ;
+        color:black;
+        padding: 20px 20px 20px 20px;
+        font-size: 15px;
+        /* border-radius: 30px ; */
+        /* border: 1px solid black; */
+        
+
+    }
+    .logo{
+        text-align: center;
+        font-size: 18px;
+        color:black;
+      }
+      #heading{
+        margin-top:0;
+        color:black;
+        text-align: center;
+        font-size: 22px;
+        
+    }
+    #signin-up{
+      /* font-size: 16px; */
+    }
+    button{
+      font-size: 16px;
+    }
+    .input input{
+        font-size: 16px;
+    }
+    .radio input{
+        transform: scale(1.1);
+    }
+    .image-radio-group img{
+        width: 300px;
+      }
+}
+
+
+.error {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #d93025;
+  
+}
+h1{
+  /* font-size: 29px; */
+}
